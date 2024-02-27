@@ -24,6 +24,7 @@
   font-weight: 500;
   margin-top: 0.75rem;
   resize: none;
+  color: #FFF
 }
 
 .new-tweet-form label textarea:focus {

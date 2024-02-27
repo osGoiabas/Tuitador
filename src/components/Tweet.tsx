@@ -9,7 +9,7 @@ interface TweetProps {
 
 export function Tweet(props: TweetProps){
   return (
-    <Link to="/status" className="tweet">
+    <Link to="/Tuitador/status" className="tweet">
       <img src="https://github.com/osGoiabas.png" alt="Vítor Canônico" />
 
       <div className="tweet-content">

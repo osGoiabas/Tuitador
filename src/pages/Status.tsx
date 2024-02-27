@@ -11,7 +11,7 @@ export function Status() {
   const [answers, setAnswers] = useState([
     'Concordo',
     'discordo',
-    'i win, u lose, bbye'
+    'vc tem probleminha'
   ])
 
   function createNewAnswer(event: FormEvent){
@@ -31,7 +31,7 @@ export function Status() {
     <main className="status">
       <Header title='Tweet' />
       
-      <Tweet content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cumque dolorem reiciendis doloribus maiores delectus quam provident tempora sunt laudantium in deserunt rem voluptatem nemo, eveniet itaque cupiditate! Inventore, deleniti." />
+      <Tweet content="vou criar uma nova rede social chamada Y" />
 
       <Separator />
       <form onSubmit={createNewAnswer} className="answer-tweet-form">

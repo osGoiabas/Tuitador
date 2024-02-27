@@ -10,7 +10,7 @@ export function Sidebar(){
       <img className='logo' src={twitterLogo} alt="Logo" />
 
       <nav className='main-navigation'>
-        <NavLink to='/'>
+        <NavLink to='/Tuitador'>
           <House weight='fill'/>
           <span>Home</span>
         </NavLink>

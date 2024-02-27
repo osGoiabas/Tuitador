@@ -5,15 +5,15 @@ import { Default } from "./layouts/Default";
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Tuitador/',
     element: <Default />,
     children: [
       {
-        path: '/',
+        path: '/Tuitador/',
         element: <Timeline />
       },
       {
-        path: '/status',
+        path: '/Tuitador/status',
         element: <Status />
       }
     ]
